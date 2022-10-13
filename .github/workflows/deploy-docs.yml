@@ -19,7 +19,7 @@ job:
           node-version: 16
       
       - name: Install Dependencies
-        run: npm ci --force
+        run: npm ci --leg-peer-deps
 
       - name: Build Storybook
         run: npm run build-storybook
